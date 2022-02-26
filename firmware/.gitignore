@@ -1,0 +1,8 @@
+#### STM32 CubeIDE Project .gitignore
+
+# Compiled binaries
+*.o
+
+# User specific settings
+.metadata
+.settings
