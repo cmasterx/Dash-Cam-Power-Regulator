@@ -59,6 +59,18 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define VIN_RED_Pin GPIO_PIN_2
+#define VIN_RED_GPIO_Port GPIOA
+#define VBAT_RED_Pin GPIO_PIN_3
+#define VBAT_RED_GPIO_Port GPIOA
+#define VCAM_RED_Pin GPIO_PIN_4
+#define VCAM_RED_GPIO_Port GPIOA
+#define dashcamPower_Pin GPIO_PIN_7
+#define dashcamPower_GPIO_Port GPIOA
+#define peripheralPower_Pin GPIO_PIN_0
+#define peripheralPower_GPIO_Port GPIOB
+#define BAT_CHARGING_Pin GPIO_PIN_8
+#define BAT_CHARGING_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
